@@ -6,8 +6,12 @@ then
   brew install chruby > /tmp/chruby-install.log
 fi
 
-if test ! $(which uby-install)
+if test ! $(which ruby-install)
 then
-  echo "  Installing uby-install for you."
+  echo "  Installing ruby-install for you."
   brew install ruby-install > /tmp/ruby-install-install.log
 fi
+
+ruby-install ruby
+gem update --system
+gem install bundler

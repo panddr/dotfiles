@@ -7,3 +7,9 @@ atom.symlink/storage
 atom.symlink/themes
 
 git/gitconfig.symlink
+sublime/User/*.last-run
+sublime/User/*.cache
+sublime/User/*.pyc
+sublime/User/Package Control.*
+.DS_Store
+
