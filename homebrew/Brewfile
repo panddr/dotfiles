@@ -1,8 +1,11 @@
 tap 'homebrew/dupes'
+tap 'homebrew/services'
 
 brew 'coreutils'
 brew 'openssl'
 brew 'wget'
+brew 'ack'
+brew 'dash'
 brew 'redis'
 brew 'postgresql'
 brew 'imagemagick'
@@ -12,7 +15,6 @@ brew 'grc'
 # Install Cask
 brew 'caskroom/cask/brew-cask'
 tap 'caskroom/homebrew-versions'
-# tap 'caskroom/versions'
 
 # Install Casks
 cask 'dropbox'
@@ -23,3 +25,4 @@ cask 'coconutbattery'
 cask 'transmission'
 cask 'the-unarchiver'
 cask 'vlc'
+cask 'disk-inventory-x'
