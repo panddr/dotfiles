@@ -302,11 +302,13 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # # Remove the animation when hiding/showing the Dock
 # defaults write com.apple.dock autohide-time-modifier -float 0
 
-# # Automatically hide and show the Dock
-# defaults write com.apple.dock autohide -bool true
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
 
-# # Make Dock icons of hidden applications translucent
-# defaults write com.apple.dock showhidden -bool true
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
+defaults write com.apple.Dock orientation -string right
 
 # # Disable the Launchpad gesture (pinch with thumb and three fingers)
 # #defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
