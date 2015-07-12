@@ -14,6 +14,6 @@ fi
 
 # Install homebrew packages
 # brew install grc coreutils spark
-brew install caskroom/cask/brew-cask
-brew bundle
+brew tap Homebrew/bundle
+brew bundle --file=$ZSH/homebrew/Brewfile
 exit 0

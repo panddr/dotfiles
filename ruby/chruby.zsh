@@ -1,9 +1,3 @@
-# CHRUBY_PATH=/usr/local/opt/chruby/share/chruby
-# if [ -d "$CHRUBY_PATH" ]; then
-#   source "$CHRUBY_PATH/chruby.sh"
-#   source "$CHRUBY_PATH/auto.sh"
-# fi
-
 CHRUBY_PATH=/usr/local/share/chruby
 if [[ -e "$CHRUBY_PATH" ]]; then
   # Load chruby

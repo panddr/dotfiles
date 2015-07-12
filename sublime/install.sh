@@ -1,11 +1,10 @@
 #!/bin/sh
 
-# brew cask install sublime-text3
+brew cask install sublime-text3
+open ~/Applications/Sublime\ Text.app
 
-SUBLIME_PATH=/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
-if [[ -e "$SUBLIME_PATH" ]]; then
-	sudo ln -s "$SUBLIME_PATH/subl" /usr/local/bin/sublime
-fi
+source $ZSH/sublime/icon-replacement.sh
+source $ZSH/sublime/package-control.sh
 
 # Create symlink for Sublime Text User directory
 
@@ -28,7 +27,3 @@ fi
 echo "Creating symlink to User in $SUBLIME_USER_PATH"
 ln -s $ZSH/sublime/User "$SUBLIME_USER_PATH"
 echo "...done"
-
-source $ZSH/sublime/package-control.sh
-
-

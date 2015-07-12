@@ -1,1 +1,1 @@
-alias subl='sublime'
+alias sublime='subl'

@@ -1,4 +1,4 @@
-SUBLIME_RESOURCES_PATH=/Applications/Sublime\ Text.app/Contents/Resources/
+SUBLIME_RESOURCES_PATH=~/Applications/Sublime\ Text.app/Contents/Resources/
 ICON_NAME=Sublime\ Text.icns
 TMP_NAME=~/tmp/sublime.icns
 echo "Replacing existing Sublime Text icon and moving it to .original"

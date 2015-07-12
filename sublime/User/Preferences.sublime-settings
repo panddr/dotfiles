@@ -1,4 +1,6 @@
 {
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
 	"auto_indent": true,
 	"binary_file_patterns":
 	[
@@ -18,8 +20,10 @@
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
+	"copy_with_empty_selection": true,
 	"detect_indentation": false,
 	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		"*.rdb",
@@ -59,6 +63,7 @@
 	[
 		"Vintage"
 	],
+	"index_files": true,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"mid_line_tabs": false,
@@ -76,10 +81,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
-  "auto_complete": true,
-  "auto_complete_commit_on_tab": true,
-  "copy_with_empty_selection": true,
-  "ensure_newline_at_eof_on_save": true,
-  "index_files": true,
-  "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~"
 }

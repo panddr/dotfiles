@@ -12,6 +12,9 @@ then
   brew install ruby-install > /tmp/ruby-install-install.log
 fi
 
-ruby-install ruby
+RUBY_VERSION=$(cat ~/.ruby-version)
+ruby-install ruby $RUBY_VERSION --no-reinstall
+source $ZSH/ruby/chruby.zsh
+chruby $RUBY_VERSION
 gem update --system
 gem install bundler
